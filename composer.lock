@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a087b08fe07e1430fdbd87c55547f7fc",
+    "content-hash": "55aca90f6edc6a9486ec73e01afa5e45",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -7292,7 +7292,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe-themes/simple": 0,
-        "silverstripe/login-forms": 0,
         "silverstripe/recipe-cms": 0,
         "silverstripe/recipe-plugin": 0,
         "silverstripe/vendor-plugin": 0

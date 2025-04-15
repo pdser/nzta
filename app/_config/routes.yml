@@ -1,0 +1,9 @@
+---
+Name: nztaroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'register': 'App\Controllers\RegisterController'
+    'login': 'SilverStripe\Security\Security'
+    'logout': 'SilverStripe\Security\Security/logout'
+    'my-account': 'App\Controllers\MyAccountController'
