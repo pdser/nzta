@@ -7,3 +7,15 @@ SilverStripe\Control\Director:
     'login': 'SilverStripe\Security\Security'
     'logout': 'SilverStripe\Security\Security/logout'
     'my-account': 'App\Controllers\MyAccountController'
+
+---
+Name: teamroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'team': App\Controllers\TeamController
+    'register': App\Controllers\RegisterController
+    'submit': App\Controllers\ReportController
+    'login': App\Controllers\LoginController
+    'my-reports': App\Controllers\ReportListController
+    'upload-test': App\Controllers\UploadTestController

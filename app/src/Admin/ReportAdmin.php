@@ -3,16 +3,15 @@
 namespace App\Admin;
 
 use SilverStripe\Admin\ModelAdmin;
-use App\Models\Report;
-use App\Models\ReportType;
+use App\Models\RoadReport;
 
 class ReportAdmin extends ModelAdmin
 {
     private static $managed_models = [
-        Report::class,
-        ReportType::class
+        RoadReport::class
     ];
 
     private static $url_segment = 'reports';
     private static $menu_title = 'Road Reports';
+    private static $menu_icon_class = 'font-icon-p-alert';
 }
