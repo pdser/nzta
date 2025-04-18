@@ -144,7 +144,7 @@
         $LoginForm
         <div class="register-link">
             <p>Don't have an account?</p>
-            <p>Click here to <a href="/nzta/register" class="register-link">Register</a></p>
+            <p>Click here to <a href="{$BaseURL}register" class="register-link" class="register-link">Register</a></p>
     </div>
     </div>
     

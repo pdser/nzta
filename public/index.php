@@ -20,6 +20,7 @@ $request = HTTPRequestBuilder::createFromEnvironment();
 
 // Default application
 $kernel = new CoreKernel(BASE_PATH);
+
 $app = new HTTPApplication($kernel);
 $response = $app->handle($request);
 $response->output();

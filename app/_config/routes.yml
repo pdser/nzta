@@ -13,6 +13,7 @@ Name: teamroutes
 ---
 SilverStripe\Control\Director:
   rules:
+    '/': 'App\Controllers\HomePageController'
     'team': App\Controllers\TeamController
     'register': App\Controllers\RegisterController
     'submit': App\Controllers\ReportController
